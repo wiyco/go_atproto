@@ -23,4 +23,4 @@ go get github.com/(USERNAME)/(REPOSITORY_NAME)@latest
 
 ## Library
 
-- [bluesky-social/indigo](https://pkg.go.dev/github.com/bluesky-social/indigo/api/bsky)
+- [bluesky-social/indigo](https://pkg.go.dev/github.com/bluesky-social/indigo)
