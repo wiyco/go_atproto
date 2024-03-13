@@ -9,17 +9,18 @@ About Go lang.
 - [Document](https://go.dev/)
 - [Packages](https://pkg.go.dev/)
 
-### Init
+### Commands
 
-```shell
-go mod init github.com/(USERNAME)/(REPOSITORY_NAME)
-```
+- `go init <repo.>`
+  Initializing (プロジェクトおよび`go.mod, go.sum`の生成)
+- `go get <package>`
+  非推奨 (deprecated) | 今後削除予定
+- `go install <package>`
+  バイナリのパッケージをグローバルにインストール
+- `go get tidy`
+  Repo.ごとの`go.mod`ファイルに Source にて`import`されているモジュールを自動追加/削除
 
 ### Packages
-
-```shell
-go get github.com/(USERNAME)/(REPOSITORY_NAME)@latest
-```
 
 - [bluesky-social/indigo](https://pkg.go.dev/github.com/bluesky-social/indigo)
 
