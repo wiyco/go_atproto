@@ -39,6 +39,6 @@ go get github.com/(USERNAME)/(REPOSITORY_NAME)@latest
 
 ## Air
 
-Hot-Reload 開発には[Air](https://github.com/cosmtrek/air)
+Hot-Reload 開発には[Air](https://github.com/cosmtrek/air)を使う
 
 [優良記事](https://zenn.dev/ring_belle/articles/go-docker-air-local)
